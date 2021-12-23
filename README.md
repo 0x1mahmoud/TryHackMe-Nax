@@ -39,7 +39,7 @@ Nmap done: 1 IP address (1 host up) scanned in 107.01 seconds
 ```
 -------------------------------------------------------------------
 
-## Let's Open /admin Dirctory
+## Let's Open /admin Directory
 ![Image of mahmoudashraf1344](https://github.com/0x1mahmoud/TryHackMe-Nax/blob/main/img/image-149.webp)
 ### I have tried the popular credentials... but it's incorrect credentials
 ### I have opened inspect element to check if there's a js file and i found that there's a 3 js files in debugger
