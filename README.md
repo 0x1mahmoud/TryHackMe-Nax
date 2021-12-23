@@ -38,3 +38,6 @@ Nmap done: 1 IP address (1 host up) scanned in 107.01 seconds
 /css                  (Status: 301) [Size: 0] [--> css/]
 ```
 -------------------------------------------------------------------
+
+## Let's Open /admin Dirctory
+![Image of mahmoudashraf1344](https://github.com/0x1mahmoud/TryHackMe-Nax/blob/main/img/image-149.webp)
