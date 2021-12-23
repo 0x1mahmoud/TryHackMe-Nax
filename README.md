@@ -41,3 +41,23 @@ Nmap done: 1 IP address (1 host up) scanned in 107.01 seconds
 
 ## Let's Open /admin Dirctory
 ![Image of mahmoudashraf1344](https://github.com/0x1mahmoud/TryHackMe-Nax/blob/main/img/image-149.webp)
+### I have tried the popular credentials... but it's incorrect credentials
+### I have opened inspect element to check if there's a js file and i found that there's a 3 js files in debugger
+### the login.js is vulnerable...
+```
+if (statusOrCookie === "Incorrect credentials") {
+        loginStatus.textContent = "Incorrect Credentials"
+        passwordBox.value=""
+    } else {
+        Cookies.set("SessionToken",statusOrCookie)
+        window.location = "/admin"
+    }
+}
+```
+![Image of mahmoudashraf1344](https://github.com/0x1mahmoud/TryHackMe-Nax/blob/main/img/THM2.png)
+### it says that if the response of the authentication request is not “Incorrect Credentials” if the authentication was successful, it then sets the SessionToken to “statusOrCookie”:
+### so let's add `cookie: SessionToken=statusOrCookie`
+### The Result:
+![Image of mahmoudashraf1344](https://github.com/0x1mahmoud/TryHackMe-Nax/blob/main/img/image-149.webp)
+### Let's save this ssh key to file like `key`
+### move forward to using the SSH2John tool to extract the hash from the key
