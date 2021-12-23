@@ -27,7 +27,7 @@ Nmap done: 1 IP address (1 host up) scanned in 107.01 seconds
 ### 2- HTTP 80 Golang net/http server
 -------------------------------------------------------------------
 ## Enumerating HTTP
-#### Then Let's Brute Force to searching the files of the web server
+#### Then Let's Brute Force to searching the files on the web server
 #### using command ` gobuster dir -u http://10.10.88.200/ -w ~/Lists/gobuster/Gobuster-Dir-Medium.txt -t 30`
 ### The Result:
 ```
