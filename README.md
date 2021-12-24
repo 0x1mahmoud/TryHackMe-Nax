@@ -2,6 +2,9 @@
 ----------------------------------------------------------------------
 ## Methodology:
 1- Enumeration & Scanning
+2- Enumerating HTTP
+3- Privilege Escalation
+
 ----------------------------------------------------------------------
 ## 1- Start With Enumeration
 #### Scanning the target Machine Using Nmap ==>> `nmap -sC -sV [Target IP]`
