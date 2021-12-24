@@ -26,7 +26,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 107.01 seconds
 
 ```
-### So Here W found out there Two open ports:
+### So Here We found out there Two open ports:
 ### 1- SSH 22 OpenSSH
 ### 2- HTTP 80 Golang net/http server
 -------------------------------------------------------------------
