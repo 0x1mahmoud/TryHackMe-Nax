@@ -41,8 +41,6 @@ Nmap done: 1 IP address (1 host up) scanned in 107.01 seconds
 /admin                (Status: 301) [Size: 42] [--> /admin/]
 /css                  (Status: 301) [Size: 0] [--> css/]
 ```
--------------------------------------------------------------------
-
 ## Let's Open /admin Directory
 ![Image of mahmoudashraf1344](https://github.com/0x1mahmoud/TryHackMe-Overpass/blob/main/img/THM3.png)
 ### I have tried the popular credentials... but it's incorrect credentials
